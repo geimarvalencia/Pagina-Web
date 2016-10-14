@@ -1,0 +1,111 @@
+/*font-family: 'Dosis', sans-serif;
+font-family: 'Arapey', serif;
+font-family: 'Rancho', cursive;
+font-family: 'Harmattan', sans-serif;*/
+
+#contenidos{
+      width: 1500px;
+      height: auto;
+      margin: auto;
+      position: relative;
+     
+      
+      }
+
+/*Etiquetas*/
+body{
+	 background-image: url(../imagen/fondo.jpe);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+h1{
+	font-family: 'Rancho', cursive;
+	color: white;
+	margin-left: 20px;
+	font-size: 60px;
+	text-align: center;
+}
+  h2{
+  	font-family: 'Arapey', serif;
+  	color: black;
+	margin-left: 10px;
+	font-size: 50px;
+	text-align: left;
+}
+  h3{
+  	font-family: 'Dosis', sans-serif;
+  	color: aliceblue;
+	font-size: 20px;
+	text-align: center;
+}
+
+header{
+	width: 1500px;
+	height: 120px;
+	background: rgba(255, 255, 255, 0, 255);
+}
+
+nav{
+	width: 1500px;
+	height:40px;
+	background: lightskyblue;	
+	border-radius: 8px;
+}
+ ul{
+ 	margin: auto;
+ 	padding-top: 15px;
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 30px;
+	background: skyblue;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+section{
+	width: 900px;
+	background: dodgerblue;
+	height:750px;	
+	float: left;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+aside{
+	width: 550px;
+	background: dodgerblue	;
+	height: 700px;	
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+footer{
+	width: 1500px;
+	height:60px;
+	background: mediumblue;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 90px;
+	
+}
+
+
+
+/*Clases*/
+.ancho.menu_home{width: 1400px;}
+.ancho.menu_paginas{width: 1470px;}
+
+  .menu:link{color: white; text-decoration: none;}
+  .menu:visited{color: white; text-decoration: none;}
+  .menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px blue;}
+  .menu:active{color: white; text-decoration: none;}
+
+
+/*Seudo clases*/
